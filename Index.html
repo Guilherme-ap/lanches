@@ -1,0 +1,64 @@
+<!DOCTYPE html>
+<html lang="´pt-br">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" type="text/css" href="Estilo/style.css" />
+    <link rel="icon" href="Imagens/Lanche.png" />
+    <link href="https://fonts.googleapis.com/css2?family=Righteous&display=swap" rel="stylesheet">
+    <title>lanches</title>
+</head>
+<body>
+    <header>
+        <ul>
+            <li><a href="#top">Home</a></li>
+            <li><a href="#end">Endereços</a></li>
+            <li><a href="Pedidos.html">Pedidos</a></li>
+            <li><a href="cardapio.html">Cardapio</a></li>
+            <li><a href="login.php" id="log">Login</a></li>
+        </ul>
+        <h1>Lanches</h1>
+    </header>
+    <main>
+        <h2>Lanches</h2>
+        <div class="container">
+        
+            <a href="cardapio.html"><img src="Imagens/Cardapio02.png" alt="Cardápio" class="cardapio"></a>
+            <a href="cardapio.html"><img src="Imagens/Cardapio03.png" alt="Cardápio" class="cardapio"></a>
+            <a href="cardapio.html"><img src="Imagens/Cardapio04.png" alt="Cardápio" class="cardapio"></a>
+            <a href="cardapio.html"><img src="Imagens/Cardapio06.png" alt="Cardápio" class="cardapio"></a>
+        </div>
+        <h2 id="end">Endereços</h2>
+        <div class="container">
+            <div class="item_end">
+                <img src="Imagens/Endereco01.jpg" alt="Guarulhos" >
+                <h3>Guarulhos</h3>
+                <h4>Aeroporto</h4>
+                <p>11:00h ás 24:00h</p>
+            </div>
+            <div class="item_end">
+                <img src="Imagens/Endereco02.jpg" alt="Campinas" >
+                <h3>Campinas</h3>
+                <h4>Praça das Árvores</h4>
+                <p>11:00h ás 23:00h</p>
+            </div>
+            <div class="item_end">
+                <img src="Imagens/Endereco03.jpg" alt="Sorocaba" >
+                <h3>Sorocaba</h3>
+                <h4>Centro Comercial</h4>
+                <p>11:00h ás 18:00h</p>
+            </div>
+        </div>
+       
+        <h2 id="fal">Fale Conosco</h2>
+        <form method="post" action="php/fale.php">
+            <p>Deixe seus dados e entraremos em contato:</p>
+            <input type="text" id="nome" name="nome" maxlength="38" placeholder="Nome" required>
+            <input type="email" id="email" name="email" maxlength="38" placeholder="E-MAIL" required>
+            <input type="text" id="fone" name="fone" maxlength="17" placeholder="telefone" required>
+            <input type="submit" class="botao" value="enviar" name="enviar">
+        </form>
+    </main>
+    
+</body>
+</html>
